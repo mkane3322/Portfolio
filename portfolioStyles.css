@@ -5,9 +5,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    width: 100vw;
 }
-.taskb-intro {
+.task-intro {
     border-right: 1px solid black;
     font-size: 18px;
     font-weight: bold;
@@ -16,18 +16,12 @@
     animation: typewriter 5s steps(30) , blink 1000ms steps(30) infinite normal;
 }
 .aboutMe {
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 50vw;
-}
-.aboutMe h1{
-    text-align: center;
-    font-size: 48px;
-    border-bottom: 1px solid black;
-}
-.aboutMe p{
-    text-align: center;
 }
 .projects {
     display: flex;
@@ -93,7 +87,7 @@
         width: 0%;
     }
     to {
-        width: 52%;
+        width: 25%;
     }
 }
 @keyframes blink {
