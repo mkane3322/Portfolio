@@ -13,15 +13,13 @@
     font-weight: bold;
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 5s steps(30) , blink 1000ms steps(30) infinite normal;
+    animation: typewriter 5s steps(35) , blink 1000ms steps(35) infinite normal;
 }
 .aboutMe {
     margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    width: 50 vw;
+    border-top: 1px solid black;
+    width: 50vw;
 }
 .projects {
     display: flex;
