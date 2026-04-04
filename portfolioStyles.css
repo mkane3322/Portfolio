@@ -1,109 +1,39 @@
 * {
     font-family: 'Roboto Mono';
+    margin: 0;
+    padding: 0;
 }
-.taskbar {
+nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
 }
-.task-intro {
-    border-right: 1px solid black;
+.logo {
+    font-size: 22px;
+    font-weight: bolder;
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+nav ul li {
+    list-style-type: none;
     font-size: 18px;
-    font-weight: bold;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typewriter 5s steps(35) , blink 1000ms steps(35) infinite normal;
 }
-.aboutMe {
-    margin: auto;
-    text-align: center;
-    border-top: 1px solid black;
-    width: 50vw;
-}
-.projects {
+.hero {
+    background-color: rgb(242, 247, 246);
+    height: 65vh;
     display: flex;
     justify-content: center;
+    gap: 130px;
     align-items: center;
-    text-align: center;
-    flex-direction: column;
 }
-.projects h1 {
-    width: 100vw;
+.hero-left .welcome {
+    font-size: 60px;
 }
-.arrow-first{
-    border: solid black;
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 15px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    animation: arrow 5s infinite;
-}
-.arrow-second{
-    border: solid black;
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 15px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    animation: arrow 5s infinite;
-    animation-delay: -4s;
-}
-.arrow-third{
-    border: solid black;
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 15px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    animation: arrow 5s infinite;
-    animation-delay: -3s;
-}
-.arrow-fourth{
-    border: solid black;
-    border-width: 0 5px 5px 0;
-    display: inline-block;
-    padding: 15px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    animation: arrow 5s infinite;
-    animation-delay: -2s;
-}
-.arrow-fifth{
-    border: solid black;
-    border-width: 0 5px 5px 0;
-    display: inline-block;
-    padding: 15px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    animation: arrow 5s infinite;
-    animation-delay: -1s;
-}
-@keyframes typewriter {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 25%;
-    }
-}
-@keyframes blink {
-    from {
-        border-color: black;
-    }
-    to {
-        border-color: transparent;
-    }
-}
-@keyframes arrow {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.hero-left .dev-intro {
+    font-size: 40px;
 }
