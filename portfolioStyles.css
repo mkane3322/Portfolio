@@ -37,3 +37,23 @@ nav ul li {
 .hero-left .dev-intro {
     font-size: 40px;
 }
+.project {
+    display: flex;
+    align-items: center;
+}
+.project-image img {
+    width: 50vw;
+}
+.project-info {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+.project-info .description {
+    font-size: 28px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.project-info p {
+    padding: 12px 0;
+}
