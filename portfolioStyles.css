@@ -57,3 +57,6 @@ nav ul li {
 .project-info p {
     padding: 12px 0;
 }
+.row-reverse {
+    flex-direction: row-reverse;
+}
