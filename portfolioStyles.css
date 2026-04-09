@@ -31,23 +31,55 @@ nav ul li {
     gap: 130px;
     align-items: center;
 }
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .hero-left .welcome {
     font-size: 60px;
 }
 .hero-left .dev-intro {
     font-size: 40px;
 }
+.hero-right img {
+    border-radius: 15px;
+}
+.button-container {
+    padding: 10px 0;
+}
+.btn {
+    background-color: rgb(242, 247, 246);
+    padding: 7px 10px;
+    margin: 0 2px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    transition: all 0.5s;
+}
+.btn:hover {
+    color: rgb(242, 247, 246);
+    background-color: black;
+    border: 2px solid rgb(242, 247, 246);
+    border-radius: 4px;
+}
 .project {
     display: flex;
     align-items: center;
+    border-top: black;
+    padding: 20px 0;
 }
 .project-image img {
     width: 50vw;
+    margin: 35px;
+    border-radius: 25px;
 }
 .project-info {
     display: flex;
     flex-direction: column;
-    padding: 12px;
+    padding: 40px;
 }
 .project-info .description {
     font-size: 28px;
