@@ -53,6 +53,7 @@ nav ul li a:hover {
     font-size: 40px;
 }
 .hero-right img {
+    height: 30vh;
     border-radius: 15px;
 }
 .button-container {
@@ -100,7 +101,8 @@ nav ul li a:hover {
     padding: 20px 0;
 }
 .project-image img {
-    width: 50vw;
+    width: 30vw;
+    height: 30vh;
     margin: 35px;
     border-radius: 25px;
 }
