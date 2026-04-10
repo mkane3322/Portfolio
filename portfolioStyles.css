@@ -97,6 +97,7 @@ nav ul li a:hover {
     to {transform: translateX(-100vw);}
 }
 .project {
+    background-color: rgb(242, 247, 246);
     display: flex;
     align-items: center;
     border-top: black;
