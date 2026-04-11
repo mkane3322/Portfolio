@@ -40,6 +40,8 @@ nav ul li a:hover {
     justify-content: center;
     gap: 130px;
     align-items: center;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 .hero-left {
     display: flex;
